@@ -2,7 +2,7 @@
   "name": "sudolapse",
   "version": "0.1.0",
   "scripts": {
-    "test": "node --test tests/",
+    "test": "node --test tests/board.test.js tests/fade_lock.test.js tests/undo.test.js tests/strikes.test.js tests/levels.test.js",
     "check": "node tools/check_levels.js"
   }
 }
